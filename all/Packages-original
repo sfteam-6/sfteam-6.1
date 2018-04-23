@@ -1,0 +1,4605 @@
+Package: ca-certificates-dbg
+Version: 20161130-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2accd88c2caddad24b3c3a2308ba021c
+Size: 814
+Filename: ca-certificates-dbg_20161130-r0_all.ipk
+Source: ca-certificates_20161130.bb
+Description: Common CA certificates - Debugging files
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20161130-r0
+Depends: ca-certificates (= 20161130-r0)
+Recommends: openssl-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5a6ebc2913e215ccdab451c64438cc9f
+Size: 858
+Filename: ca-certificates-dev_20161130-r0_all.ipk
+Source: ca-certificates_20161130.bb
+Description: Common CA certificates - Development files
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20161130-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5b8a397eaef7ba79e419b5098e662d6
+Size: 2092
+Filename: ca-certificates-doc_20161130-r0_all.ipk
+Source: ca-certificates_20161130.bb
+Description: Common CA certificates - Documentation files
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.  This package contains
+ documentation.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20161130-r0
+Depends: openssl
+Section: misc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66694626b3e009994a083846ce0ae6f5
+Size: 169434
+Filename: ca-certificates_20161130-r0_all.ipk
+Source: ca-certificates_20161130.bb
+Description: Common CA certificates
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: dvb-usb-drivers-meta
+Version: 1.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 026c3223ccf6b192aeda23f4439c8fd1
+Size: 634
+Filename: dvb-usb-drivers-meta_1.1-r0_all.ipk
+Source: dvb-usb-drivers-meta.bb
+Description: dvb-usb-drivers-meta version 1.1-r0
+ meta file for USB DVB drivers
+OE: dvb-usb-drivers-meta
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+Version: 1.0-r0
+Recommends: firmware-xc5000c, kernel-module-au0828, kernel-module-au8522, kernel-module-au8522-common, kernel-module-au8522-dig, kernel-module-tveeprom, kernel-module-xc5000
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f5b640d07aa44b2c545024a005df6b34
+Size: 742
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge-950q_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge-950q.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge-950q version 1.0-r0
+ USB ATSC driver for Hauppauge 950Q WinTV-HVR Tuners
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge-950q
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge-955q
+Version: 1.0-r0
+Recommends: firmware-cx231xx, kernel-module-cx231xx, kernel-module-cx231xx-dvb, kernel-module-cx25840, kernel-module-lgdt3306a, kernel-module-si2157, kernel-module-tveeprom
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e471dde9e43d5bfc6bd697f1e28799e
+Size: 742
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge-955q_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge-955q.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge-955q version 1.0-r0
+ USB ATSC driver for Hauppauge 955Q WinTV-HVR Tuners
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge-955q
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-atsc-usb-hauppauge
+Version: 1.1-r0
+Recommends: firmware-xc5000, kernel-module-au0828, kernel-module-au8522, kernel-module-au8522-common, kernel-module-au8522-decoder, kernel-module-au8522-dig, kernel-module-cx231xx, kernel-module-cx231xx-alsa, kernel-module-cx231xx-dvb, kernel-module-cx2341x, kernel-module-em28xx, kernel-module-lgdt3305, kernel-module-tda18271, kernel-module-tda18271c2dd, kernel-module-tveeprom, kernel-module-xc5000
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ee850387065acae176f3325790f19604
+Size: 786
+Filename: enigma2-plugin-drivers-atsc-usb-hauppauge_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-atsc-usb-hauppauge.bb
+Description: enigma2-plugin-drivers-atsc-usb-hauppauge version 1.1-r0
+ USB ATSC driver for Hauppauge WinTV-HVR Tuners
+OE: enigma2-plugin-drivers-atsc-usb-hauppauge
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-em28xx, kernel-module-em28xx-dvb, kernel-module-em28xx-rc, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f3a32f87fcd7d13bf8d6db39664c5b6
+Size: 724
+Filename: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e.bb
+Description: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e version 1.0-r0
+ USB DVB driver for pctv292e chipsets
+OE: enigma2-plugin-drivers-ct2-dvb-usb-pctv292e
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-usb-dvbsky-t330
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-dvb-usb-dvbsky, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cac2577993fb6047c3b67f02a3802b2e
+Size: 708
+Filename: enigma2-plugin-drivers-ct2-usb-dvbsky-t330_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-ct2-usb-dvbsky-t330.bb
+Description: enigma2-plugin-drivers-ct2-usb-dvbsky-t330 version 1.0-r0
+ USB dvbsky driver for T330
+OE: enigma2-plugin-drivers-ct2-usb-dvbsky-t330
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-ct2-usb-geniatech-t230
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-si2168-b40, kernel-module-dvb-usb-cxusb, kernel-module-si2157, kernel-module-si2168
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 34ac8fa519c25f30e8a698522d43cd0e
+Size: 714
+Filename: enigma2-plugin-drivers-ct2-usb-geniatech-t230_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-ct2-usb-geniatech-t230.bb
+Description: enigma2-plugin-drivers-ct2-usb-geniatech-t230 version 1.0-r0
+ USB geniatech driver for T230
+OE: enigma2-plugin-drivers-ct2-usb-geniatech-t230
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-af9015
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-af9013, firmware-dvb-usb-af9015, kernel-module-af9013, kernel-module-dvb-pll, kernel-module-dvb-usb, kernel-module-dvb-usb-af9015, kernel-module-mc44s803, kernel-module-mt2060, kernel-module-mxl5005s, kernel-module-mxl5007t, kernel-module-qt1010, kernel-module-stv0299, kernel-module-tda18218, kernel-module-tda18271
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 574b0cf8f1841cd0550e04b078fd6cfd
+Size: 764
+Filename: enigma2-plugin-drivers-dvb-usb-af9015_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-af9015.bb
+Description: enigma2-plugin-drivers-dvb-usb-af9015 version 1.1-r0
+ USB DVB driver for Afatech 9015 chipset
+OE: enigma2-plugin-drivers-dvb-usb-af9015
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-af9035
+Version: 1.3-r0
+Recommends: firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, firmware-dvb-usb-it913x, kernel-module-af9033, kernel-module-dvb-usb-af9035, kernel-module-it913x, kernel-module-mxl5007t, kernel-module-tda18218, kernel-module-tua9001
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a19381f9b1bab4ed1e5ebe61458c436d
+Size: 730
+Filename: enigma2-plugin-drivers-dvb-usb-af9035_1.3-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-af9035.bb
+Description: enigma2-plugin-drivers-dvb-usb-af9035 version 1.3-r0
+ USB DVB driver for af9035 devices
+OE: enigma2-plugin-drivers-dvb-usb-af9035
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-as102
+Version: 1.1-r0
+Recommends: firmware-as102-data1-st, firmware-as102-data2-st, kernel-module-as102-fe, kernel-module-dvb-as102
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 44e43264e9ce3c84e60d870bd1ffe470
+Size: 698
+Filename: enigma2-plugin-drivers-dvb-usb-as102_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-as102.bb
+Description: enigma2-plugin-drivers-dvb-usb-as102 version 1.1-r0
+ USB DVB driver for AS102 chipset
+OE: enigma2-plugin-drivers-dvb-usb-as102
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dib0700
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dib0700-1.20, firmware-dvb-usb-dibusb-5.0.0.11, firmware-dvb-usb-dibusb-6.0.0.8, firmware-dvb-usb-dibusb-an2235-01, firmware-xc3028-v27, firmware-xc3028l-v36, kernel-module-dib0070, kernel-module-dib0090, kernel-module-dib3000mb, kernel-module-dib3000mc, kernel-module-dib7000m, kernel-module-dib7000p, kernel-module-dib8000, kernel-module-dibx000-common, kernel-module-dvb-usb, kernel-module-dvb-usb-dib0700, kernel-module-dvb-usb-dibusb-common, kernel-module-dvb-usb-dibusb-mc, kernel-module-fc0013, kernel-module-mt2060, kernel-module-mt2266, kernel-module-tuner-xc2028
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b56dadb1773fa2d31e8fbbbcc332f22
+Size: 810
+Filename: enigma2-plugin-drivers-dvb-usb-dib0700_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dib0700.bb
+Description: enigma2-plugin-drivers-dvb-usb-dib0700 version 1.1-r0
+ USB DVB driver for dib0700 chipset
+OE: enigma2-plugin-drivers-dvb-usb-dib0700
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dtt200u
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-dtt200u-01, firmware-dvb-usb-wt220u-02, firmware-dvb-usb-wt220u-fc03, firmware-dvb-usb-wt220u-miglia-01, firmware-dvb-usb-wt220u-zl0353-01, kernel-module-dvb-usb-dtt200u
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8fde3e8775529b013a9fad9cd72d926b
+Size: 716
+Filename: enigma2-plugin-drivers-dvb-usb-dtt200u_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dtt200u.bb
+Description: enigma2-plugin-drivers-dvb-usb-dtt200u version 1.1-r0
+ USB DVB driver for dtt200u chipsets
+OE: enigma2-plugin-drivers-dvb-usb-dtt200u
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-dw2102
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-ds3000, firmware-dvb-usb-s660, kernel-module-dvb-usb-dw2102, kernel-module-stb6100, kernel-module-stv090x
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4014e02ff39e36242d4b5d098a415cf0
+Size: 724
+Filename: enigma2-plugin-drivers-dvb-usb-dw2102_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-dw2102.bb
+Description: enigma2-plugin-drivers-dvb-usb-dw2102 version 1.1-r0
+ USB DVB driver for DW210x/DW310x chipset
+OE: enigma2-plugin-drivers-dvb-usb-dw2102
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-em28xx
+Version: 1.1-r0
+Recommends: firmware-dvb-fe-tda10071, kernel-module-cxd2820r, kernel-module-em28xx-dvb, kernel-module-tda10071
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 14cb388f140b7382d3060addce7299ee
+Size: 710
+Filename: enigma2-plugin-drivers-dvb-usb-em28xx_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-em28xx.bb
+Description: enigma2-plugin-drivers-dvb-usb-em28xx version 1.1-r0
+ USB DVB driver for EM28xx chipset
+OE: enigma2-plugin-drivers-dvb-usb-em28xx
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-it913x
+Version: 1.2-r0
+Recommends: firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, firmware-dvb-usb-it913x, kernel-module-af9033, kernel-module-dvb-usb-af9035, kernel-module-dvb-usb-it913x, kernel-module-it913x, kernel-module-it913x-fe
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5cd83ef34aaac7636003d2a713528eac
+Size: 716
+Filename: enigma2-plugin-drivers-dvb-usb-it913x_1.2-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-it913x.bb
+Description: enigma2-plugin-drivers-dvb-usb-it913x version 1.2-r0
+ USB DVB driver for it913x chipsets
+OE: enigma2-plugin-drivers-dvb-usb-it913x
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-pctv452e
+Version: 1.1-r0
+Recommends: kernel-module-dvb-usb-pctv452e
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8cbeb20573fc89cf8cd41b507c8ebcd6
+Size: 678
+Filename: enigma2-plugin-drivers-dvb-usb-pctv452e_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-pctv452e.bb
+Description: enigma2-plugin-drivers-dvb-usb-pctv452e version 1.1-r0
+ USB DVB driver for pctv452e chipsets
+OE: enigma2-plugin-drivers-dvb-usb-pctv452e
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-rtl2832
+Version: 1.1-r0
+Recommends: firmware-dvb-demod-mn88473-01, firmware-dvb-usb-af9015, firmware-dvb-usb-af9035-01, firmware-dvb-usb-af9035-02, kernel-module-dvb-usb-rtl2832, kernel-module-dvb-usb-rtl28xxu, kernel-module-e4000, kernel-module-fc0012, kernel-module-fc0013, kernel-module-mt2266, kernel-module-r820t, kernel-module-rtl2832
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3bf834cfaf99254e18e81930307539fd
+Size: 760
+Filename: enigma2-plugin-drivers-dvb-usb-rtl2832_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-rtl2832.bb
+Description: USB DVB driver for Realtek RTL2832 chipset
+ USB DVB driver for Realtek RTL2832 chipset.
+OE: enigma2-plugin-drivers-dvb-usb-rtl2832
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-siano
+Version: 1.1-r0
+Recommends: firmware-dvb-nova-12mhz-b0, firmware-dvb-siano, firmware-isdbt-nova-12mhz-b0, kernel-module-smsdvb, kernel-module-smsmdtv, kernel-module-smsusb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a166422db4a4c1a7d694a13aca6ca32
+Size: 716
+Filename: enigma2-plugin-drivers-dvb-usb-siano_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-siano.bb
+Description: enigma2-plugin-drivers-dvb-usb-siano version 1.1-r0
+ USB DVB driver for Siano chipset
+OE: enigma2-plugin-drivers-dvb-usb-siano
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-tbs
+Version: 1.1-r0
+Recommends: firmware-dvb-usb-tbs5925, firmware-dvb-usb-tbs5980, kernel-module-cx24116, kernel-module-dvb-usb-tbsusb, kernel-module-stb6000, kernel-module-stb6100, kernel-module-stv0288, kernel-module-stv0299, kernel-module-stv090x, kernel-module-tda10071
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7697a6672e68973c5979be97da857349
+Size: 734
+Filename: enigma2-plugin-drivers-dvb-usb-tbs_1.1-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-tbs.bb
+Description: enigma2-plugin-drivers-dvb-usb-tbs version 1.1-r0
+ USB DVB driver for TBS Tuners
+OE: enigma2-plugin-drivers-dvb-usb-tbs
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+Version: 1.0-r0
+Recommends: blindscan-s2, firmware-dvb-usb-technisat-skystar, kernel-module-dvb-usb-technisat-usb2, kernel-module-stv090x, kernel-module-stv6110x
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eec5e305e25f5c1d87dffca23d604ecb
+Size: 722
+Filename: enigma2-plugin-drivers-dvb-usb-technisat-skystar_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-dvb-usb-technisat-skystar.bb
+Description: enigma2-plugin-drivers-dvb-usb-technisat-skystar version 1.0-r0
+ USB DVB driver for Technisat Skystar HD
+OE: enigma2-plugin-drivers-dvb-usb-technisat-skystar
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-drivers-s2-usb-dvbsky-s960
+Version: 1.0-r0
+Recommends: firmware-dvb-demod-m88ds3103, kernel-module-dvb-usb-dvbsky, kernel-module-ts2020
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91a8656daa44d9fb05171ada0b089699
+Size: 702
+Filename: enigma2-plugin-drivers-s2-usb-dvbsky-s960_1.0-r0_all.ipk
+Source: enigma2-plugin-drivers-s2-usb-dvbsky-s960.bb
+Description: enigma2-plugin-drivers-s2-usb-dvbsky-s960 version 1.0-r0
+ USB dvbsky driver for S960
+OE: enigma2-plugin-drivers-s2-usb-dvbsky-s960
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgimport-rytec
+Version: 20171116-r0
+Replaces: enigma2-plugin-extensions-xmltvimport-rytec
+Conflicts: enigma2-plugin-extensions-xmltvimport-rytec
+Section: base
+Architecture: all
+Maintainer: Rytec forum @ forums.openpli.org
+MD5Sum: baed33c852be8cc64dc84a79b1bf997e
+Size: 4460
+Filename: enigma2-plugin-extensions-epgimport-rytec_20171116-r0_all.ipk
+Source: enigma2-plugin-extensions-epgimport-rytec.bb
+Description: enigma2-plugin-extensions-epgimport-rytec version 20171116-r0
+ Rytec's XMLTV sources and channels for the EPGImporter
+OE: enigma2-plugin-extensions-epgimport-rytec
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptvplayer-deps-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7bff6fdaab5eb68328f68494921584d2
+Size: 734
+Filename: enigma2-plugin-extensions-iptvplayer-deps-dbg_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' IPTV Player - Debugging files
+ Meta package for installing all dependencies for SSS' IPTV Player.  This
+ package contains ELF symbols and related sources for debugging purposes.
+OE: enigma2-plugin-extensions-iptvplayer-deps
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptvplayer-deps-dev
+Version: 1.0-r0
+Depends: enigma2-plugin-extensions-iptvplayer-deps (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6daf9fa2f3a6f594009af20db09bf7ba
+Size: 768
+Filename: enigma2-plugin-extensions-iptvplayer-deps-dev_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' IPTV Player - Development files
+ Meta package for installing all dependencies for SSS' IPTV Player.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: enigma2-plugin-extensions-iptvplayer-deps
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-iptvplayer-deps
+Version: 1.0-r0
+Recommends: duktape, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, rtmpdump, uchardet, wget
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 63b3c99d0c6af644818bbb5aa0561803
+Size: 754
+Filename: enigma2-plugin-extensions-iptvplayer-deps_1.0-r0_all.ipk
+Source: enigma2-plugin-extensions-iptvplayer-deps.bb
+Description: Meta package for installing all dependencies for SSS' IPTV Player
+ Meta package for installing all dependencies for SSS' IPTV Player.
+OE: enigma2-plugin-extensions-iptvplayer-deps
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-extensions-openuitzendinggemist
+Version: 2+git198+84d6864-r0
+Depends: python-argparse
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6c5bbe2b502916e5504ac485aca372bf
+Size: 46340
+Filename: enigma2-plugin-extensions-openuitzendinggemist_2+git198+84d6864-r0_all.ipk
+Source: enigma2-pliplugins.bb
+Description: enigma2-pliplugins version 2+gitAUTOINC+84d68642c2-r0
+ enigma2-pliplugins version 2+gitAUTOINC+84d68642c2-r0.
+OE: enigma2-pliplugins
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-picons-delta.dark-on-white-220x132-dbg
+Version: 1.0+git7+5d05942-r0
+Section: devel
+Architecture: all
+Maintainer: Smokey
+MD5Sum: 75181328bfd2ed4fbb1bc59aa053d46e
+Size: 726
+Filename: enigma2-plugin-picons-delta.dark-on-white-220x132-dbg_1.0+git7+5d05942-r0_all.ipk
+Source: enigma2-plugin-picons-delta.dark-on-white-220x132_git.bb
+Description: enigma2-plugin-picons-delta.dark-on-white-220x132 version 1.0+gitAUTOINC+5d05942d04-r0 - Debugging files
+ Delta Dark on While 220x132 picons  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma2-plugin-picons-delta.dark-on-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-delta.dark-on-white-220x132-dev
+Version: 1.0+git7+5d05942-r0
+Depends: enigma2-plugin-picons-delta.dark-on-white-220x132 (= 1.0+git7+5d05942-r0)
+Section: devel
+Architecture: all
+Maintainer: Smokey
+MD5Sum: 23a40915d05598425fd76f3ea990fe1c
+Size: 758
+Filename: enigma2-plugin-picons-delta.dark-on-white-220x132-dev_1.0+git7+5d05942-r0_all.ipk
+Source: enigma2-plugin-picons-delta.dark-on-white-220x132_git.bb
+Description: enigma2-plugin-picons-delta.dark-on-white-220x132 version 1.0+gitAUTOINC+5d05942d04-r0 - Development files
+ Delta Dark on While 220x132 picons  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma2-plugin-picons-delta.dark-on-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-delta.dark-on-white-220x132
+Version: 1.0+git7+5d05942-r0
+Section: base
+Architecture: all
+Maintainer: Smokey
+MD5Sum: ae9dfb0ce64456ea59685e38fcb91bda
+Size: 1460362
+Filename: enigma2-plugin-picons-delta.dark-on-white-220x132_1.0+git7+5d05942-r0_all.ipk
+Source: enigma2-plugin-picons-delta.dark-on-white-220x132_git.bb
+Description: enigma2-plugin-picons-delta.dark-on-white-220x132 version 1.0+gitAUTOINC+5d05942d04-r0
+ Delta Dark on While 220x132 picons
+OE: enigma2-plugin-picons-delta.dark-on-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.black-button-220x132-dbg
+Version: 1.0+git64+ad4dd9f-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 408d60d09cca6796e33c9ba826f3eb04
+Size: 726
+Filename: enigma2-plugin-picons-ziggo.black-button-220x132-dbg_1.0+git64+ad4dd9f-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.black-button-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.black-button-220x132 version 1.0+gitAUTOINC+ad4dd9f61e-r0 - Debugging files
+ Ziggo Black white 220x132 picons  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.black-button-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.black-button-220x132-dev
+Version: 1.0+git64+ad4dd9f-r0
+Depends: enigma2-plugin-picons-ziggo.black-button-220x132 (= 1.0+git64+ad4dd9f-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 769733ad4bbe6663146a095e04a9c80b
+Size: 758
+Filename: enigma2-plugin-picons-ziggo.black-button-220x132-dev_1.0+git64+ad4dd9f-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.black-button-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.black-button-220x132 version 1.0+gitAUTOINC+ad4dd9f61e-r0 - Development files
+ Ziggo Black white 220x132 picons  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma2-plugin-picons-ziggo.black-button-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.black-button-220x132
+Version: 1.0+git64+ad4dd9f-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 59996e509ff8ca4ebb8420c3c2d4f53d
+Size: 2343040
+Filename: enigma2-plugin-picons-ziggo.black-button-220x132_1.0+git64+ad4dd9f-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.black-button-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.black-button-220x132 version 1.0+gitAUTOINC+ad4dd9f61e-r0
+ Ziggo Black white 220x132 picons
+OE: enigma2-plugin-picons-ziggo.black-button-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.black-white-220x132-dbg
+Version: 1.0+git61+40dccd2-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: cdba0a8d252259d6567ae6820f06dec0
+Size: 722
+Filename: enigma2-plugin-picons-ziggo.black-white-220x132-dbg_1.0+git61+40dccd2-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.black-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.black-white-220x132 version 1.0+gitAUTOINC+40dccd265b-r0 - Debugging files
+ Ziggo Black white 220x132 picons  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.black-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.black-white-220x132-dev
+Version: 1.0+git61+40dccd2-r0
+Depends: enigma2-plugin-picons-ziggo.black-white-220x132 (= 1.0+git61+40dccd2-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 6ede11b0a70ff63f19ca2c811295b105
+Size: 754
+Filename: enigma2-plugin-picons-ziggo.black-white-220x132-dev_1.0+git61+40dccd2-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.black-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.black-white-220x132 version 1.0+gitAUTOINC+40dccd265b-r0 - Development files
+ Ziggo Black white 220x132 picons  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma2-plugin-picons-ziggo.black-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.black-white-220x132
+Version: 1.0+git61+40dccd2-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: d78caaef4a44b299e26baead9ee80467
+Size: 2222102
+Filename: enigma2-plugin-picons-ziggo.black-white-220x132_1.0+git61+40dccd2-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.black-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.black-white-220x132 version 1.0+gitAUTOINC+40dccd265b-r0
+ Ziggo Black white 220x132 picons
+OE: enigma2-plugin-picons-ziggo.black-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-look-100x60-dbg
+Version: 1.0+git61+a94a201-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 103f26915884b350fba4739514c9550b
+Size: 720
+Filename: enigma2-plugin-picons-ziggo.metal-look-100x60-dbg_1.0+git61+a94a201-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-look-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-look-100x60 version 1.0+gitAUTOINC+a94a2014fc-r0 - Debugging files
+ Ziggo Metal look 100x60 picons  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.metal-look-100x60
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-look-100x60-dev
+Version: 1.0+git61+a94a201-r0
+Depends: enigma2-plugin-picons-ziggo.metal-look-100x60 (= 1.0+git61+a94a201-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 142117456b38039c28b680d498bbff95
+Size: 752
+Filename: enigma2-plugin-picons-ziggo.metal-look-100x60-dev_1.0+git61+a94a201-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-look-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-look-100x60 version 1.0+gitAUTOINC+a94a2014fc-r0 - Development files
+ Ziggo Metal look 100x60 picons  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma2-plugin-picons-ziggo.metal-look-100x60
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-look-100x60
+Version: 1.0+git61+a94a201-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 38c28401cf2950f68c2ad7280a87810a
+Size: 2116516
+Filename: enigma2-plugin-picons-ziggo.metal-look-100x60_1.0+git61+a94a201-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-look-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-look-100x60 version 1.0+gitAUTOINC+a94a2014fc-r0
+ Ziggo Metal look 100x60 picons
+OE: enigma2-plugin-picons-ziggo.metal-look-100x60
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-look-220x132-dbg
+Version: 1.0+git61+8acbc91-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: c5370710653d1ad322b9822a32418679
+Size: 724
+Filename: enigma2-plugin-picons-ziggo.metal-look-220x132-dbg_1.0+git61+8acbc91-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-look-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-look-220x132 version 1.0+gitAUTOINC+8acbc913b1-r0 - Debugging files
+ Ziggo Metal look 220x132 picons  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.metal-look-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-look-220x132-dev
+Version: 1.0+git61+8acbc91-r0
+Depends: enigma2-plugin-picons-ziggo.metal-look-220x132 (= 1.0+git61+8acbc91-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: cb9609b4ddce9528726b9fbdd856c517
+Size: 756
+Filename: enigma2-plugin-picons-ziggo.metal-look-220x132-dev_1.0+git61+8acbc91-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-look-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-look-220x132 version 1.0+gitAUTOINC+8acbc913b1-r0 - Development files
+ Ziggo Metal look 220x132 picons  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma2-plugin-picons-ziggo.metal-look-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-look-220x132
+Version: 1.0+git61+8acbc91-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: cd6a8f16ddfea541180ef26f7c407c94
+Size: 7589810
+Filename: enigma2-plugin-picons-ziggo.metal-look-220x132_1.0+git61+8acbc91-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-look-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-look-220x132 version 1.0+gitAUTOINC+8acbc913b1-r0
+ Ziggo Metal look 220x132 picons
+OE: enigma2-plugin-picons-ziggo.metal-look-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-stamp-100x60-dbg
+Version: 1.0+git62+1d86b32-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: ed3e40317df8fe7c65af863391150661
+Size: 722
+Filename: enigma2-plugin-picons-ziggo.metal-stamp-100x60-dbg_1.0+git62+1d86b32-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-stamp-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-stamp-100x60 version 1.0+gitAUTOINC+1d86b32dc0-r0 - Debugging files
+ Ziggo Metal stamp 100x60 picons  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.metal-stamp-100x60
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-stamp-100x60-dev
+Version: 1.0+git62+1d86b32-r0
+Depends: enigma2-plugin-picons-ziggo.metal-stamp-100x60 (= 1.0+git62+1d86b32-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 8056c51118c37cf096ef2150ced2bd9c
+Size: 754
+Filename: enigma2-plugin-picons-ziggo.metal-stamp-100x60-dev_1.0+git62+1d86b32-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-stamp-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-stamp-100x60 version 1.0+gitAUTOINC+1d86b32dc0-r0 - Development files
+ Ziggo Metal stamp 100x60 picons  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma2-plugin-picons-ziggo.metal-stamp-100x60
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-stamp-100x60
+Version: 1.0+git62+1d86b32-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: d7ea9838e1a1b427241f8bd761f469a3
+Size: 1803030
+Filename: enigma2-plugin-picons-ziggo.metal-stamp-100x60_1.0+git62+1d86b32-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-stamp-100x60_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-stamp-100x60 version 1.0+gitAUTOINC+1d86b32dc0-r0
+ Ziggo Metal stamp 100x60 picons
+OE: enigma2-plugin-picons-ziggo.metal-stamp-100x60
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-stamp-220x132-dbg
+Version: 1.0+git61+1578922-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 077a2a9f09b77749a11c2e39268fa9e6
+Size: 724
+Filename: enigma2-plugin-picons-ziggo.metal-stamp-220x132-dbg_1.0+git61+1578922-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-stamp-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-stamp-220x132 version 1.0+gitAUTOINC+1578922976-r0 - Debugging files
+ Ziggo Metal stamp 220x132 picons  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.metal-stamp-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-stamp-220x132-dev
+Version: 1.0+git61+1578922-r0
+Depends: enigma2-plugin-picons-ziggo.metal-stamp-220x132 (= 1.0+git61+1578922-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 016850c075c6de70f6a17f83650229c3
+Size: 756
+Filename: enigma2-plugin-picons-ziggo.metal-stamp-220x132-dev_1.0+git61+1578922-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-stamp-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-stamp-220x132 version 1.0+gitAUTOINC+1578922976-r0 - Development files
+ Ziggo Metal stamp 220x132 picons  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma2-plugin-picons-ziggo.metal-stamp-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.metal-stamp-220x132
+Version: 1.0+git61+1578922-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 364689e42176dea07f267154844e723d
+Size: 6787350
+Filename: enigma2-plugin-picons-ziggo.metal-stamp-220x132_1.0+git61+1578922-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.metal-stamp-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.metal-stamp-220x132 version 1.0+gitAUTOINC+1578922976-r0
+ Ziggo Metal stamp 220x132 picons
+OE: enigma2-plugin-picons-ziggo.metal-stamp-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.reflection-black-220x132-dbg
+Version: 1.0+git61+ef291ee-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 82f21732dcac1a7534fa63ab234b4091
+Size: 724
+Filename: enigma2-plugin-picons-ziggo.reflection-black-220x132-dbg_1.0+git61+ef291ee-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.reflection-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.reflection-black-220x132 version 1.0+gitAUTOINC+ef291ee44e-r0 - Debugging files
+ Ziggo Reflection black 220x132 picons  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.reflection-black-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.reflection-black-220x132-dev
+Version: 1.0+git61+ef291ee-r0
+Depends: enigma2-plugin-picons-ziggo.reflection-black-220x132 (= 1.0+git61+ef291ee-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 19b5cce4b7ae2d4cc0c4f8571c1adb76
+Size: 756
+Filename: enigma2-plugin-picons-ziggo.reflection-black-220x132-dev_1.0+git61+ef291ee-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.reflection-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.reflection-black-220x132 version 1.0+gitAUTOINC+ef291ee44e-r0 - Development files
+ Ziggo Reflection black 220x132 picons  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: enigma2-plugin-picons-ziggo.reflection-black-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.reflection-black-220x132
+Version: 1.0+git61+ef291ee-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 074b16222886ce3d154a6431f915ac9c
+Size: 2540338
+Filename: enigma2-plugin-picons-ziggo.reflection-black-220x132_1.0+git61+ef291ee-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.reflection-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.reflection-black-220x132 version 1.0+gitAUTOINC+ef291ee44e-r0
+ Ziggo Reflection black 220x132 picons
+OE: enigma2-plugin-picons-ziggo.reflection-black-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.transparent-black-220x132-dbg
+Version: 1.0+git63+45f99f8-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: e68be833986908c007f786d798333172
+Size: 728
+Filename: enigma2-plugin-picons-ziggo.transparent-black-220x132-dbg_1.0+git63+45f99f8-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.transparent-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.transparent-black-220x132 version 1.0+gitAUTOINC+45f99f86ef-r0 - Debugging files
+ Ziggo Transparent white 220x132 picons  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.transparent-black-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.transparent-black-220x132-dev
+Version: 1.0+git63+45f99f8-r0
+Depends: enigma2-plugin-picons-ziggo.transparent-black-220x132 (= 1.0+git63+45f99f8-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 788c48d83cdedb4c13abdce27396c451
+Size: 762
+Filename: enigma2-plugin-picons-ziggo.transparent-black-220x132-dev_1.0+git63+45f99f8-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.transparent-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.transparent-black-220x132 version 1.0+gitAUTOINC+45f99f86ef-r0 - Development files
+ Ziggo Transparent white 220x132 picons  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: enigma2-plugin-picons-ziggo.transparent-black-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.transparent-black-220x132
+Version: 1.0+git63+45f99f8-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 24f81b2c8c1dc88198f3341f0887c2da
+Size: 2039036
+Filename: enigma2-plugin-picons-ziggo.transparent-black-220x132_1.0+git63+45f99f8-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.transparent-black-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.transparent-black-220x132 version 1.0+gitAUTOINC+45f99f86ef-r0
+ Ziggo Transparent white 220x132 picons
+OE: enigma2-plugin-picons-ziggo.transparent-black-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.transparent-white-220x132-dbg
+Version: 1.0+git63+2b48975-r0
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: c4aa8f53c029c73ecd11bb5d29109f66
+Size: 728
+Filename: enigma2-plugin-picons-ziggo.transparent-white-220x132-dbg_1.0+git63+2b48975-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.transparent-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.transparent-white-220x132 version 1.0+gitAUTOINC+2b48975d7c-r0 - Debugging files
+ Ziggo Transparent white 220x132 picons  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: enigma2-plugin-picons-ziggo.transparent-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.transparent-white-220x132-dev
+Version: 1.0+git63+2b48975-r0
+Depends: enigma2-plugin-picons-ziggo.transparent-white-220x132 (= 1.0+git63+2b48975-r0)
+Section: devel
+Architecture: all
+Maintainer: Stefan
+MD5Sum: 297d84b134d29fdd559c343c74bbbb59
+Size: 762
+Filename: enigma2-plugin-picons-ziggo.transparent-white-220x132-dev_1.0+git63+2b48975-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.transparent-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.transparent-white-220x132 version 1.0+gitAUTOINC+2b48975d7c-r0 - Development files
+ Ziggo Transparent white 220x132 picons  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: enigma2-plugin-picons-ziggo.transparent-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-picons-ziggo.transparent-white-220x132
+Version: 1.0+git63+2b48975-r0
+Section: base
+Architecture: all
+Maintainer: Stefan
+MD5Sum: db3f257586f1094e0f10b1ba7d8318b6
+Size: 1986826
+Filename: enigma2-plugin-picons-ziggo.transparent-white-220x132_1.0+git63+2b48975-r0_all.ipk
+Source: enigma2-plugin-picons-ziggo.transparent-white-220x132_git.bb
+Description: enigma2-plugin-picons-ziggo.transparent-white-220x132 version 1.0+gitAUTOINC+2b48975d7c-r0
+ Ziggo Transparent white 220x132 picons
+OE: enigma2-plugin-picons-ziggo.transparent-white-220x132
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e-dbg
+Version: 1.0+git110+8aec6d1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 50fb9454341c833dbc1c10c4ddd32876
+Size: 744
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e-dbg_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Debugging files
+ Hans 13E,19E,23E,28E  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e-dev
+Version: 1.0+git110+8aec6d1-r0
+Depends: enigma2-plugin-settings-hans-13e-19e-23e-28e (= 1.0+git110+8aec6d1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 797cbfd0251b9ff94104a82e3b34db21
+Size: 776
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e-dev_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Development files
+ Hans 13E,19E,23E,28E  This package contains symbolic links, header files,
+ and related items necessary for software development.
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e
+Version: 1.0+git110+8aec6d1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d64bbba8d475172a7bf5e82ad6e93b0c
+Size: 370840
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-13e-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0
+ Hans 13E,19E,23E,28E
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-28e-dbg
+Version: 1.0+git110+8aec6d1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1af5e07659385c2e33fed734e2380fe4
+Size: 740
+Filename: enigma2-plugin-settings-hans-19e-23e-28e-dbg_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Debugging files
+ Hans 19E,23E,28E  This package contains ELF symbols and related sources
+ for debugging purposes.
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-28e-dev
+Version: 1.0+git110+8aec6d1-r0
+Depends: enigma2-plugin-settings-hans-19e-23e-28e (= 1.0+git110+8aec6d1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d37092c3650d4d5ab962434a8d2b8cd5
+Size: 770
+Filename: enigma2-plugin-settings-hans-19e-23e-28e-dev_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Development files
+ Hans 19E,23E,28E  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-28e
+Version: 1.0+git110+8aec6d1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdb8d43d3157a4bc720d3f5c731a111a
+Size: 335978
+Filename: enigma2-plugin-settings-hans-19e-23e-28e_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0
+ Hans 19E,23E,28E
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis-dbg
+Version: 1.0+git110+8aec6d1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a40478cf6e91e9aa703c1766a9969c27
+Size: 740
+Filename: enigma2-plugin-settings-hans-19e-23e-basis-dbg_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+gitAUTOINC+8aec6d1e55-r0 - Debugging files
+ Hans 19E,23E basis  This package contains ELF symbols and related sources
+ for debugging purposes.
+OE: enigma2-plugin-settings-hans-19e-23e-basis
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis-dev
+Version: 1.0+git110+8aec6d1-r0
+Depends: enigma2-plugin-settings-hans-19e-23e-basis (= 1.0+git110+8aec6d1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d897bab3f6c532472aa24e5f497f63c
+Size: 772
+Filename: enigma2-plugin-settings-hans-19e-23e-basis-dev_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+gitAUTOINC+8aec6d1e55-r0 - Development files
+ Hans 19E,23E basis  This package contains symbolic links, header files,
+ and related items necessary for software development.
+OE: enigma2-plugin-settings-hans-19e-23e-basis
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis
+Version: 1.0+git110+8aec6d1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1ca4e8e1d50d877e353bf9bc951c5786
+Size: 38300
+Filename: enigma2-plugin-settings-hans-19e-23e-basis_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e-basis.bb
+Description: enigma2-plugin-settings-hans-19e-23e-basis version 1.0+gitAUTOINC+8aec6d1e55-r0
+ Hans 19E,23E basis
+OE: enigma2-plugin-settings-hans-19e-23e-basis
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-dbg
+Version: 1.0+git110+8aec6d1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df045fc6800c774ebac56145fb60bce4
+Size: 734
+Filename: enigma2-plugin-settings-hans-19e-23e-dbg_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Debugging files
+ Hans 19E,23E  This package contains ELF symbols and related sources for
+ debugging purposes.
+OE: enigma2-plugin-settings-hans-19e-23e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e-dev
+Version: 1.0+git110+8aec6d1-r0
+Depends: enigma2-plugin-settings-hans-19e-23e (= 1.0+git110+8aec6d1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4e08584141863071e6d68643fa874402
+Size: 764
+Filename: enigma2-plugin-settings-hans-19e-23e-dev_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Development files
+ Hans 19E,23E  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: enigma2-plugin-settings-hans-19e-23e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-19e-23e
+Version: 1.0+git110+8aec6d1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d823b06b7945d9266f9bab0b3c45a0de
+Size: 320386
+Filename: enigma2-plugin-settings-hans-19e-23e_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-19e-23e.bb
+Description: enigma2-plugin-settings-hans-19e-23e version 1.0+gitAUTOINC+8aec6d1e55-r0
+ Hans 19E,23E
+OE: enigma2-plugin-settings-hans-19e-23e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dbg
+Version: 1.0+git110+8aec6d1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7148fb4ebf007d31b13b867209ffc279
+Size: 748
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dbg_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Debugging files
+ Hans 9E 13E,19E,23E,28E  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dev
+Version: 1.0+git110+8aec6d1-r0
+Depends: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e (= 1.0+git110+8aec6d1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9fc811309205f82562354c816505bf27
+Size: 778
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-dev_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0 - Development files
+ Hans 9E 13E,19E,23E,28E  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dbg
+Version: 1.0+git110+8aec6d1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cc08768643f7d987ea10aea08e41c213
+Size: 756
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dbg_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+gitAUTOINC+8aec6d1e55-r0 - Debugging files
+ Hans 9E,13E,19E,23E,28E and rotating  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dev
+Version: 1.0+git110+8aec6d1-r0
+Depends: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating (= 1.0+git110+8aec6d1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8db49afad22d8f487979fc63a9afad88
+Size: 788
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating-dev_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+gitAUTOINC+8aec6d1e55-r0 - Development files
+ Hans 9E,13E,19E,23E,28E and rotating  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+Version: 1.0+git110+8aec6d1-r0
+Provides: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Replaces: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Conflicts: e2_hanssettings_13e_19e_23e_28e_AND_rotating
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7060089a563ad0fd9789c0de98a5371f
+Size: 685366
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating version 1.0+gitAUTOINC+8aec6d1e55-r0
+ Hans 9E,13E,19E,23E,28E and rotating
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+Version: 1.0+git110+8aec6d1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bbdf141103c843f75214a0980bc27a8a
+Size: 378288
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e.bb
+Description: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e version 1.0+gitAUTOINC+8aec6d1e55-r0
+ Hans 9E 13E,19E,23E,28E
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-kabelnl-dbg
+Version: 1.0+git110+8aec6d1-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fcb920b8cd4d8c253398fd48e886e289
+Size: 730
+Filename: enigma2-plugin-settings-hans-kabelnl-dbg_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+gitAUTOINC+8aec6d1e55-r0 - Debugging files
+ Hans Cable-settings  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: enigma2-plugin-settings-hans-kabelnl
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-kabelnl-dev
+Version: 1.0+git110+8aec6d1-r0
+Depends: enigma2-plugin-settings-hans-kabelnl (= 1.0+git110+8aec6d1-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c03303a64001bcdcb835da2e85413f7
+Size: 764
+Filename: enigma2-plugin-settings-hans-kabelnl-dev_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+gitAUTOINC+8aec6d1e55-r0 - Development files
+ Hans Cable-settings  This package contains symbolic links, header files,
+ and related items necessary for software development.
+OE: enigma2-plugin-settings-hans-kabelnl
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-hans-kabelnl
+Version: 1.0+git110+8aec6d1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8a029e8a68a1d3c50052932c2dec7ec6
+Size: 282544
+Filename: enigma2-plugin-settings-hans-kabelnl_1.0+git110+8aec6d1-r0_all.ipk
+Source: enigma2-plugin-settings-hans-kabelnl.bb
+Description: enigma2-plugin-settings-hans-kabelnl version 1.0+gitAUTOINC+8aec6d1e55-r0
+ Hans Cable-settings
+OE: enigma2-plugin-settings-hans-kabelnl
+License: CLOSED
+Priority: optional
+
+Package: enigma2-plugin-settings-ziggo-casema-west
+Version: 20110326-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f8bc9a7647baf673a4b061630f3586a
+Size: 8924
+Filename: enigma2-plugin-settings-ziggo-casema-west_20110326-r0_all.ipk
+Source: enigma2-plugin-settings-ziggo-casema-west_20110326.bb
+Description: enigma2-plugin-settings-ziggo-casema-west version 20110326-r0
+ Hoeba settings Ziggo/Casema West
+OE: enigma2-plugin-settings-ziggo-casema-west
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-magic
+Version: 1.2+git331+8b5fb84-r0
+Depends: font-valis-enigma
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: 7b98b6a3503c449aaeef3c1f743d3121
+Size: 122864
+Filename: enigma2-plugin-skins-magic_1.2+git331+8b5fb84-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.2+gitAUTOINC+8b5fb84750-r0
+ Magic skin for Enigma2
+OE: enigma2-plugin-skins-magic
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-fullnight-dbg
+Version: 0.1+git105+8d28517-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: ab4836352b7788cc8ed9b3c8201c3935
+Size: 706
+Filename: enigma2-plugin-skins-pli-hd-fullnight-dbg_0.1+git105+8d28517-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+gitAUTOINC+8d28517b28-r0 - Debugging files
+ PLi HD FullNight skin  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-fullnight-dev
+Version: 0.1+git105+8d28517-r0
+Depends: enigma2-plugin-skins-pli-hd-fullnight (= 0.1+git105+8d28517-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 0a0e0c918fb5d081ed912ac8cf4a8e6d
+Size: 744
+Filename: enigma2-plugin-skins-pli-hd-fullnight-dev_0.1+git105+8d28517-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+gitAUTOINC+8d28517b28-r0 - Development files
+ PLi HD FullNight skin  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-fullnight
+Version: 0.1+git105+8d28517-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: f5bb82771ca28cda24172a71a81c794d
+Size: 147308
+Filename: enigma2-plugin-skins-pli-hd-fullnight_0.1+git105+8d28517-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd-fullnight.bb
+Description: enigma2-plugin-skins-pli-hd-fullnight version 0.1+gitAUTOINC+8d28517b28-r0
+ PLi HD FullNight skin
+OE: enigma2-plugin-skins-pli-hd-fullnight
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-quadpip
+Version: git13+aab3173-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: eced3ebfc58f763d0ad74122edcbe41d
+Size: 26454
+Filename: enigma2-plugin-systemplugins-quadpip_git13+aab3173-r0_all.ipk
+Source: enigma2-plugin-systemplugins-quadpip.bb
+Description: enigma2-plugin-systemplugins-quadpip version gitAUTOINC+aab317393c-r0
+ QuadPiP plugin for VU+ UHD receivers
+OE: enigma2-plugin-systemplugins-quadpip
+License: GPLv2+
+Priority: optional
+
+Package: fakelocale-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: bd468482eb649087b704f0bec581f94d
+Size: 656
+Filename: fakelocale-dbg_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support - Debugging files
+ LC_TIME locale support.  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: fakelocale-dev
+Version: 1.0-r0
+Depends: fakelocale (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: ce404833c43dc6cdc655bdc9d47a5593
+Size: 690
+Filename: fakelocale-dev_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support - Development files
+ LC_TIME locale support.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: fakelocale
+Version: 1.0-r0
+Provides: virtual-locale-ar, virtual-locale-bg, virtual-locale-ca, virtual-locale-cs, virtual-locale-da, virtual-locale-de, virtual-locale-el, virtual-locale-en, virtual-locale-es, virtual-locale-et, virtual-locale-fa, virtual-locale-fi, virtual-locale-fr, virtual-locale-fy, virtual-locale-he, virtual-locale-hr, virtual-locale-hu, virtual-locale-id, virtual-locale-is, virtual-locale-it, virtual-locale-lt, virtual-locale-lv, virtual-locale-nl, virtual-locale-no, virtual-locale-pl, virtual-locale-pt, virtual-locale-ru, virtual-locale-sk, virtual-locale-sl, virtual-locale-sr, virtual-locale-sv, virtual-locale-th, virtual-locale-tr, virtual-locale-uk
+Section: base
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: e1a0597f28bbf10fbdec5a1fafea5a78
+Size: 24012
+Filename: fakelocale_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support
+ LC_TIME locale support.
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: firmware-as102-data1-st
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 59a034d4ddd14f434f484f6f3fafc1c9
+Size: 37872
+Filename: firmware-as102-data1-st_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-as102-data1-st.bb
+Description: firmware-as102-data1-st version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for as102_data1_st
+OE: firmware-as102-data1-st
+License: CLOSED
+Priority: optional
+
+Package: firmware-as102-data2-st
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ad4ab02d8ec05bd57e90ccffb725cac
+Size: 26336
+Filename: firmware-as102-data2-st_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-as102-data2-st.bb
+Description: firmware-as102-data2-st version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for as102_data2_st
+OE: firmware-as102-data2-st
+License: CLOSED
+Priority: optional
+
+Package: firmware-cx231xx
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8b6a0e65936198ac0ccd7e26f124b17
+Size: 9134
+Filename: firmware-cx231xx_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-cx231xx.bb
+Description: firmware-cx231xx version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for cx231xx
+OE: firmware-cx231xx
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-m88ds3103
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12404ed5c3b3e09d0852e953b45bf4b8
+Size: 5274
+Filename: firmware-dvb-demod-m88ds3103_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-demod-m88ds3103.bb
+Description: firmware-dvb-demod-m88ds3103 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for demod m88ds3103
+OE: firmware-dvb-demod-m88ds3103
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-mn88473-01
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e79fb97078301f43fcbd73929a44d5d4
+Size: 2188
+Filename: firmware-dvb-demod-mn88473-01_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-demod-mn88473-01.bb
+Description: firmware-dvb-demod-mn88473-01 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for demod mn88473
+OE: firmware-dvb-demod-mn88473-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-demod-si2168-b40
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3deef1065f91d99071aaeb1940eae1b1
+Size: 12400
+Filename: firmware-dvb-demod-si2168-b40_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-demod-si2168-b40.bb
+Description: firmware-dvb-demod-si2168-b40 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for demod si2168 b40-01
+OE: firmware-dvb-demod-si2168-b40
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-fe-af9013
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 507791c37d7ac43f541469b91f801920
+Size: 7222
+Filename: firmware-dvb-fe-af9013_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-fe-af9013.bb
+Description: firmware-dvb-fe-af9013 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-fe-af9013
+OE: firmware-dvb-fe-af9013
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-fe-ds3000
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 49f2841c2c3e3399d342babe83499704
+Size: 4516
+Filename: firmware-dvb-fe-ds3000_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-fe-ds3000.bb
+Description: firmware-dvb-fe-ds3000 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for ds3000 dvb frontend
+OE: firmware-dvb-fe-ds3000
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-fe-tda10071
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8b8f9dcff5ef4e759c4a8c46a13d407f
+Size: 28062
+Filename: firmware-dvb-fe-tda10071_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-fe-tda10071.bb
+Description: firmware-dvb-fe-tda10071 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for TDA10071 dvb frontend
+OE: firmware-dvb-fe-tda10071
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-nova-12mhz-b0
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ab740029dcc973ef61f88ed3b89ddb1b
+Size: 63862
+Filename: firmware-dvb-nova-12mhz-b0_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-nova-12mhz-b0.bb
+Description: firmware-dvb-nova-12mhz-b0 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-nova_12Mhz
+OE: firmware-dvb-nova-12mhz-b0
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-siano
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2be3d2980ce1be56ea41cebbffdd657
+Size: 198296
+Filename: firmware-dvb-siano_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-siano.bb
+Description: firmware-dvb-siano version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for Siano USB DVB
+OE: firmware-dvb-siano
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-af9015
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f534469eed6371228dd2deb3a56baf54
+Size: 8576
+Filename: firmware-dvb-usb-af9015_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-af9015.bb
+Description: firmware-dvb-usb-af9015 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-af9015
+OE: firmware-dvb-usb-af9015
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-af9035-01
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c1e5138062999292ed9ad570b19133d2
+Size: 24022
+Filename: firmware-dvb-usb-af9035-01_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-af9035-01.bb
+Description: firmware-dvb-usb-af9035-01 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-af9035-01
+OE: firmware-dvb-usb-af9035-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-af9035-02
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 06034ef43ace84ed9484dca7b9fb6721
+Size: 23994
+Filename: firmware-dvb-usb-af9035-02_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-af9035-02.bb
+Description: firmware-dvb-usb-af9035-02 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-af9035-02
+OE: firmware-dvb-usb-af9035-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dib0700-1.20
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9a7015d78678d9fe91f4848b57cd03e
+Size: 22504
+Filename: firmware-dvb-usb-dib0700-1.20_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-dib0700-1.20.bb
+Description: firmware-dvb-usb-dib0700-1.20 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-dib0700-1.20
+OE: firmware-dvb-usb-dib0700-1.20
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dibusb-5.0.0.11
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fa8c986342eeb002346409b88e3b01b0
+Size: 7006
+Filename: firmware-dvb-usb-dibusb-5.0.0.11_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-dibusb-5.0.0.11.bb
+Description: firmware-dvb-usb-dibusb-5.0.0.11 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-dibusb-5.0.0.11
+OE: firmware-dvb-usb-dibusb-5.0.0.11
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dibusb-6.0.0.8
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7829eff7d96218e1b1440784f3b4bff7
+Size: 6170
+Filename: firmware-dvb-usb-dibusb-6.0.0.8_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-dibusb-6.0.0.8.bb
+Description: firmware-dvb-usb-dibusb-6.0.0.8 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-dibusb-6.0.0.8
+OE: firmware-dvb-usb-dibusb-6.0.0.8
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dibusb-an2235-01
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2ca96950612f8003cef631c08d0033d
+Size: 6416
+Filename: firmware-dvb-usb-dibusb-an2235-01_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-dibusb-an2235-01.bb
+Description: firmware-dvb-usb-dibusb-an2235-01 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-dibusb-an2235-01
+OE: firmware-dvb-usb-dibusb-an2235-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-dtt200u-01
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7349b7c1dbf0dcd867ffe51b43d99ac3
+Size: 5662
+Filename: firmware-dvb-usb-dtt200u-01_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-dtt200u-01.bb
+Description: firmware-dvb-usb-dtt200u-01 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-dtt200u-01.fw
+OE: firmware-dvb-usb-dtt200u-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-it913x
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0e4cbc3cd5c1a08e0a5d9dcfe8e0893f
+Size: 11790
+Filename: firmware-dvb-usb-it913x_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-it913x.bb
+Description: firmware-dvb-usb-it913x version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-it913x
+OE: firmware-dvb-usb-it913x
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-s660
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3989c8a73971615e155d55cf3d8e5835
+Size: 3306
+Filename: firmware-dvb-usb-s660_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-s660.bb
+Description: firmware-dvb-usb-s660 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for DVB USB TeVii S660 adapter
+OE: firmware-dvb-usb-s660
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-tbs5925
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f6331de33def6cbf4c4fdd7b00239dff
+Size: 3476
+Filename: firmware-dvb-usb-tbs5925_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-tbs5925.bb
+Description: firmware-dvb-usb-tbs5925 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for TBS 5925
+OE: firmware-dvb-usb-tbs5925
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-tbs5980
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0ae9e0001728051bd3ca3e62cf978cdf
+Size: 3722
+Filename: firmware-dvb-usb-tbs5980_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-tbs5980.bb
+Description: firmware-dvb-usb-tbs5980 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for TBS 5980
+OE: firmware-dvb-usb-tbs5980
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-technisat-skystar
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6883482ace96618bf93dfe0fc7e6e7e
+Size: 6894
+Filename: firmware-dvb-usb-technisat-skystar_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-technisat-skystar.bb
+Description: firmware-dvb-usb-technisat-skystar version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for Technisat Skystar USB HD
+OE: firmware-dvb-usb-technisat-skystar
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-02
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 19110cfeab6e38f1cc03d98ec2b32058
+Size: 6606
+Filename: firmware-dvb-usb-wt220u-02_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-02.bb
+Description: firmware-dvb-usb-wt220u-02 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-wt220u-02
+OE: firmware-dvb-usb-wt220u-02
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-fc03
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 72e73c10ce27526b47c927a02f0f0127
+Size: 9440
+Filename: firmware-dvb-usb-wt220u-fc03_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-fc03.bb
+Description: firmware-dvb-usb-wt220u-fc03 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-wt220u-fc03
+OE: firmware-dvb-usb-wt220u-fc03
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-miglia-01
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1158f66eea668f13a82b6d6e60572a7a
+Size: 8188
+Filename: firmware-dvb-usb-wt220u-miglia-01_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-miglia-01.bb
+Description: firmware-dvb-usb-wt220u-miglia-01 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-wt220u-miglia-01
+OE: firmware-dvb-usb-wt220u-miglia-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-dvb-usb-wt220u-zl0353-01
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fa4889dd027320bd7255cb31bfb92e59
+Size: 6680
+Filename: firmware-dvb-usb-wt220u-zl0353-01_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-dvb-usb-wt220u-zl0353-01.bb
+Description: firmware-dvb-usb-wt220u-zl0353-01 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for dvb-usb-wt220u-zl0353-01
+OE: firmware-dvb-usb-wt220u-zl0353-01
+License: CLOSED
+Priority: optional
+
+Package: firmware-isdbt-nova-12mhz-b0
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 20c5d6c790c8577118f5e01d35174961
+Size: 57428
+Filename: firmware-isdbt-nova-12mhz-b0_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-isdbt-nova-12mhz-b0.bb
+Description: firmware-isdbt-nova-12mhz-b0 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for isdbt_nova_12mhz_b0.inp
+OE: firmware-isdbt-nova-12mhz-b0
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc3028-v27
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3452a307b7a1a76b6d1d89c12da56e48
+Size: 17052
+Filename: firmware-xc3028-v27_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-xc3028-v27.bb
+Description: firmware-xc3028-v27 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for xc3028-v27
+OE: firmware-xc3028-v27
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc3028l-v36
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f8e494320a62e13bde47d7c3242e324c
+Size: 20382
+Filename: firmware-xc3028l-v36_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-xc3028l-v36.bb
+Description: firmware-xc3028l-v36 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for xc3028L-v36
+OE: firmware-xc3028l-v36
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc5000
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 23681a9ec72e90ee21ade0d97cce0d3d
+Size: 10182
+Filename: firmware-xc5000_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-xc5000.bb
+Description: firmware-xc5000 version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for xc5000
+OE: firmware-xc5000
+License: CLOSED
+Priority: optional
+
+Package: firmware-xc5000c
+Version: 1.1+git292+25f936b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e1583cc059ff76c42939f9bad8742aa
+Size: 13092
+Filename: firmware-xc5000c_1.1+git292+25f936b-r0_all.ipk
+Source: firmware-xc5000c.bb
+Description: firmware-xc5000c version 1.1+gitAUTOINC+25f936b80e-r0
+ Firmware for xc5000c
+OE: firmware-xc5000c
+License: CLOSED
+Priority: optional
+
+Package: font-valis-enigma
+Version: 2009.11.12-r0
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: e411d94a7954806fff5ed0bb9f5be36c
+Size: 36932
+Filename: font-valis-enigma_2009.11.12-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.2+gitAUTOINC+8b5fb84750-r0
+ Valis enigma font
+OE: enigma2-plugin-skins-magic
+License: GPLv2+
+Priority: optional
+
+Package: iso-codes-dbg
+Version: 3.74-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 65bd474eabb37d96bb7139511078a4f2
+Size: 720
+Filename: iso-codes-dbg_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - Debugging files
+ ISO language, territory, currency, script codes and their translations.
+ This package contains ELF symbols and related sources for debugging
+ purposes.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-dev
+Version: 3.74-r0
+Depends: iso-codes (= 3.74-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 739097d058947d1aa088f875d3f37ba5
+Size: 994
+Filename: iso-codes-dev_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - Development files
+ ISO language, territory, currency, script codes and their translations.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-af
+Version: 3.74-r0
+Provides: af-translation, iso-codes-locale
+Recommends: virtual-locale-af
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f644ac63162743551cea2aaca1fea36b
+Size: 12590
+Filename: iso-codes-locale-af_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - af translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the af locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-am
+Version: 3.74-r0
+Provides: am-translation, iso-codes-locale
+Recommends: virtual-locale-am
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3ee16a5fe551015707efcc7faaa67440
+Size: 7640
+Filename: iso-codes-locale-am_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - am translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the am locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ar
+Version: 3.74-r0
+Provides: ar-translation, iso-codes-locale
+Recommends: virtual-locale-ar
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2e783e1aab0801a889e64c61e0f3024
+Size: 15602
+Filename: iso-codes-locale-ar_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ar translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ar locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-as
+Version: 3.74-r0
+Provides: as-translation, iso-codes-locale
+Recommends: virtual-locale-as
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 738507ca6f216d4629a723d8c383e672
+Size: 24264
+Filename: iso-codes-locale-as_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - as translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the as locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ast
+Version: 3.74-r0
+Provides: ast-translation, iso-codes-locale
+Recommends: virtual-locale-ast
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31e3ad249ac1beec6e246768ae12a072
+Size: 154656
+Filename: iso-codes-locale-ast_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ast translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ast locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-az
+Version: 3.74-r0
+Provides: az-translation, iso-codes-locale
+Recommends: virtual-locale-az
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 100f571b1e01b9dfa3b8e3d32d90b826
+Size: 8124
+Filename: iso-codes-locale-az_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - az translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the az locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-be
+Version: 3.74-r0
+Provides: be-translation, iso-codes-locale
+Recommends: virtual-locale-be
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cba560a2c0c4532cf8bf57fe415e4cbf
+Size: 23332
+Filename: iso-codes-locale-be_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - be translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the be locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bg
+Version: 3.74-r0
+Provides: bg-translation, iso-codes-locale
+Recommends: virtual-locale-bg
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b1ed2113a13e69336c74ec3a76b60397
+Size: 33482
+Filename: iso-codes-locale-bg_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bg translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bg locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bn-in
+Version: 3.74-r0
+Provides: bn-in-translation, iso-codes-locale
+Recommends: virtual-locale-bn-in
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 071361eb56edc2fcff1072a64a84fc3e
+Size: 12494
+Filename: iso-codes-locale-bn-in_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bn_IN translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bn_IN locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bn
+Version: 3.74-r0
+Provides: bn-translation, iso-codes-locale
+Recommends: virtual-locale-bn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c73d304e1597db360251d977ed28dd90
+Size: 57030
+Filename: iso-codes-locale-bn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-br
+Version: 3.74-r0
+Provides: br-translation, iso-codes-locale
+Recommends: virtual-locale-br
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cf580f5192f2ce0e9d4161c4ae8966c4
+Size: 22870
+Filename: iso-codes-locale-br_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - br translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the br locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bs
+Version: 3.74-r0
+Provides: bs-translation, iso-codes-locale
+Recommends: virtual-locale-bs
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 40b7b5c5c85336f671058fe3dfee0335
+Size: 13468
+Filename: iso-codes-locale-bs_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bs translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bs locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-byn
+Version: 3.74-r0
+Provides: byn-translation, iso-codes-locale
+Recommends: virtual-locale-byn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7210f4a1ded3b373b71c1dc84f902a0d
+Size: 7280
+Filename: iso-codes-locale-byn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - byn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the byn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ca
+Version: 3.74-r0
+Provides: ca-translation, iso-codes-locale
+Recommends: virtual-locale-ca
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e095f7703a4b3de427681168b05a0ae2
+Size: 26756
+Filename: iso-codes-locale-ca_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ca translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ca locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-crh
+Version: 3.74-r0
+Provides: crh-translation, iso-codes-locale
+Recommends: virtual-locale-crh
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 33060c0b536801e8a8880a9bcecbcd59
+Size: 133408
+Filename: iso-codes-locale-crh_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - crh translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the crh locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-cs
+Version: 3.74-r0
+Provides: cs-translation, iso-codes-locale
+Recommends: virtual-locale-cs
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6a9eaf2e888bc866322b61041bbb5f77
+Size: 36298
+Filename: iso-codes-locale-cs_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - cs translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the cs locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-cy
+Version: 3.74-r0
+Provides: cy-translation, iso-codes-locale
+Recommends: virtual-locale-cy
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bdaafa01458a4b64b74039fbdf1985d8
+Size: 13790
+Filename: iso-codes-locale-cy_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - cy translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the cy locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-da
+Version: 3.74-r0
+Provides: da-translation, iso-codes-locale
+Recommends: virtual-locale-da
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4957088756502f3d2c2965edc6e84283
+Size: 114744
+Filename: iso-codes-locale-da_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - da translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the da locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-de
+Version: 3.74-r0
+Provides: de-translation, iso-codes-locale
+Recommends: virtual-locale-de
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 59bcb040eb411e431d32cf86ae0bf45c
+Size: 291870
+Filename: iso-codes-locale-de_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - de translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the de locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-dz
+Version: 3.74-r0
+Provides: dz-translation, iso-codes-locale
+Recommends: virtual-locale-dz
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e1616f7cadbc2949d54a8f187b1ac83
+Size: 13428
+Filename: iso-codes-locale-dz_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - dz translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the dz locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-el
+Version: 3.74-r0
+Provides: el-translation, iso-codes-locale
+Recommends: virtual-locale-el
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2691bdcd1b7ab727624c5472f2b694a1
+Size: 41784
+Filename: iso-codes-locale-el_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - el translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the el locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-en
+Version: 3.74-r0
+Provides: en-translation, iso-codes-locale
+Recommends: virtual-locale-en
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e74cb39b08bc71c1207bff6c4f1a2381
+Size: 37076
+Filename: iso-codes-locale-en_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - en translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the en locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-eo
+Version: 3.74-r0
+Provides: eo-translation, iso-codes-locale
+Recommends: virtual-locale-eo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 21f33f4af599452cf97f3c8b64d17936
+Size: 29688
+Filename: iso-codes-locale-eo_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - eo translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the eo locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-es
+Version: 3.74-r0
+Provides: es-translation, iso-codes-locale
+Recommends: virtual-locale-es
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d83bca6a9d699c69fa3fba0bf3cc6773
+Size: 29164
+Filename: iso-codes-locale-es_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - es translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the es locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-et
+Version: 3.74-r0
+Provides: et-translation, iso-codes-locale
+Recommends: virtual-locale-et
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e1d3e413f70324a8582f170e9cb1765
+Size: 15804
+Filename: iso-codes-locale-et_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - et translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the et locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-eu
+Version: 3.74-r0
+Provides: eu-translation, iso-codes-locale
+Recommends: virtual-locale-eu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 61fdd5a13d6537006391b949ad0f81c7
+Size: 18894
+Filename: iso-codes-locale-eu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - eu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the eu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fa
+Version: 3.74-r0
+Provides: fa-translation, iso-codes-locale
+Recommends: virtual-locale-fa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 676f81765976ebe122b8f8542c0db1f8
+Size: 21840
+Filename: iso-codes-locale-fa_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fa translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fa locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fi
+Version: 3.74-r0
+Provides: fi-translation, iso-codes-locale
+Recommends: virtual-locale-fi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d831b4a258f978ec616d4379f36adea
+Size: 34868
+Filename: iso-codes-locale-fi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fo
+Version: 3.74-r0
+Provides: fo-translation, iso-codes-locale
+Recommends: virtual-locale-fo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 688c6a8c273395e40ea29f6878efdbe3
+Size: 3650
+Filename: iso-codes-locale-fo_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fo translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fo locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fr
+Version: 3.74-r0
+Provides: fr-translation, iso-codes-locale
+Recommends: virtual-locale-fr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f830d9c688a7242915d86da52c4e0a10
+Size: 289644
+Filename: iso-codes-locale-fr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ga
+Version: 3.74-r0
+Provides: ga-translation, iso-codes-locale
+Recommends: virtual-locale-ga
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e19c42196db1a565e318c4c90f452935
+Size: 22854
+Filename: iso-codes-locale-ga_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ga translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ga locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gez
+Version: 3.74-r0
+Provides: gez-translation, iso-codes-locale
+Recommends: virtual-locale-gez
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc44018a65dc370b5f271692aaacaddc
+Size: 7294
+Filename: iso-codes-locale-gez_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - gez translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the gez locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gl
+Version: 3.74-r0
+Provides: gl-translation, iso-codes-locale
+Recommends: virtual-locale-gl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 27963050a44c1fcf50fa74029592c939
+Size: 158466
+Filename: iso-codes-locale-gl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - gl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the gl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gu
+Version: 3.74-r0
+Provides: gu-translation, iso-codes-locale
+Recommends: virtual-locale-gu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2aa368fafbe4879ead820141a063bfcf
+Size: 35304
+Filename: iso-codes-locale-gu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - gu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the gu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-haw
+Version: 3.74-r0
+Provides: haw-translation, iso-codes-locale
+Recommends: virtual-locale-haw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd3aa30b838ba12bc2be7d834b0d2121
+Size: 1744
+Filename: iso-codes-locale-haw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - haw translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the haw locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-he
+Version: 3.74-r0
+Provides: he-translation, iso-codes-locale
+Recommends: virtual-locale-he
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8cb90e453278b0943c438d60d1d7d426
+Size: 14064
+Filename: iso-codes-locale-he_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - he translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the he locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hi
+Version: 3.74-r0
+Provides: hi-translation, iso-codes-locale
+Recommends: virtual-locale-hi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8de241d9d8527cb305f3879d86af405
+Size: 16830
+Filename: iso-codes-locale-hi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hr
+Version: 3.74-r0
+Provides: hr-translation, iso-codes-locale
+Recommends: virtual-locale-hr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed99369720056ce3562cbaa9ad7b9213
+Size: 28674
+Filename: iso-codes-locale-hr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hu
+Version: 3.74-r0
+Provides: hu-translation, iso-codes-locale
+Recommends: virtual-locale-hu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1875241d03b6e3e84432a757af2b6ca0
+Size: 79810
+Filename: iso-codes-locale-hu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hy
+Version: 3.74-r0
+Provides: hy-translation, iso-codes-locale
+Recommends: virtual-locale-hy
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dd20c421715a374beb65ac9ee1497540
+Size: 12452
+Filename: iso-codes-locale-hy_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hy translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hy locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ia
+Version: 3.74-r0
+Provides: ia-translation, iso-codes-locale
+Recommends: virtual-locale-ia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5ca84e4016b90b2c097b701dc69a2d35
+Size: 14734
+Filename: iso-codes-locale-ia_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ia translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ia locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-id
+Version: 3.74-r0
+Provides: id-translation, iso-codes-locale
+Recommends: virtual-locale-id
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b4d7804000007c1e68d9fbd4168fbdc
+Size: 121358
+Filename: iso-codes-locale-id_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - id translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the id locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-is
+Version: 3.74-r0
+Provides: is-translation, iso-codes-locale
+Recommends: virtual-locale-is
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7bd5fe18cb36fc94222cad4f0a3a55ef
+Size: 31604
+Filename: iso-codes-locale-is_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - is translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the is locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-it
+Version: 3.74-r0
+Provides: iso-codes-locale, it-translation
+Recommends: virtual-locale-it
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 879eafcbd8e94b8b26ed04b9503e5ee1
+Size: 278818
+Filename: iso-codes-locale-it_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - it translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the it locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ja
+Version: 3.74-r0
+Provides: iso-codes-locale, ja-translation
+Recommends: virtual-locale-ja
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ffd9d8a2c8eb8ee1db078a050a3bc639
+Size: 83102
+Filename: iso-codes-locale-ja_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ja translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ja locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ka
+Version: 3.74-r0
+Provides: iso-codes-locale, ka-translation
+Recommends: virtual-locale-ka
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e07574e9c4cef58949618eb1b66fb3e3
+Size: 12158
+Filename: iso-codes-locale-ka_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ka translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ka locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kk
+Version: 3.74-r0
+Provides: iso-codes-locale, kk-translation
+Recommends: virtual-locale-kk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8de7e09fa6e2d977856bfcadad68e6da
+Size: 12390
+Filename: iso-codes-locale-kk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - kk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the kk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-km
+Version: 3.74-r0
+Provides: iso-codes-locale, km-translation
+Recommends: virtual-locale-km
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2bd135fcdc246ce31527bc2d93083c7f
+Size: 12882
+Filename: iso-codes-locale-km_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - km translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the km locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kn
+Version: 3.74-r0
+Provides: iso-codes-locale, kn-translation
+Recommends: virtual-locale-kn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8eb0858a9f8b968c4c854f3a7df2fee2
+Size: 152450
+Filename: iso-codes-locale-kn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - kn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the kn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ko
+Version: 3.74-r0
+Provides: iso-codes-locale, ko-translation
+Recommends: virtual-locale-ko
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 010616cee6bea427d52af14c7d22550c
+Size: 26198
+Filename: iso-codes-locale-ko_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ko translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ko locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kok
+Version: 3.74-r0
+Provides: iso-codes-locale, kok-translation
+Recommends: virtual-locale-kok
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 172b38e84919252192aac7be78d1ac13
+Size: 5018
+Filename: iso-codes-locale-kok_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - kok translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the kok locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ku
+Version: 3.74-r0
+Provides: iso-codes-locale, ku-translation
+Recommends: virtual-locale-ku
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef39380237000aa699b6e6fb5b4bd5b6
+Size: 10770
+Filename: iso-codes-locale-ku_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ku translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ku locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-lt
+Version: 3.74-r0
+Provides: iso-codes-locale, lt-translation
+Recommends: virtual-locale-lt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a470f59183a904cfb5bbfb8846f6157
+Size: 78842
+Filename: iso-codes-locale-lt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - lt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the lt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-lv
+Version: 3.74-r0
+Provides: iso-codes-locale, lv-translation
+Recommends: virtual-locale-lv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6495ed0774bc848dccf0e1e6616f59d8
+Size: 30108
+Filename: iso-codes-locale-lv_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - lv translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the lv locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mi
+Version: 3.74-r0
+Provides: iso-codes-locale, mi-translation
+Recommends: virtual-locale-mi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4eec6b7617594d0173ae2ff0628485b0
+Size: 6558
+Filename: iso-codes-locale-mi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mk
+Version: 3.74-r0
+Provides: iso-codes-locale, mk-translation
+Recommends: virtual-locale-mk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6198fa885da12696ac64a815d9feac51
+Size: 13378
+Filename: iso-codes-locale-mk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ml
+Version: 3.74-r0
+Provides: iso-codes-locale, ml-translation
+Recommends: virtual-locale-ml
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c56f40b8cf35f0c3357f6686e4079fa6
+Size: 25420
+Filename: iso-codes-locale-ml_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ml translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ml locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mn
+Version: 3.74-r0
+Provides: iso-codes-locale, mn-translation
+Recommends: virtual-locale-mn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a641fecf60cf417d7c776cdfb989f78
+Size: 10918
+Filename: iso-codes-locale-mn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mr
+Version: 3.74-r0
+Provides: iso-codes-locale, mr-translation
+Recommends: virtual-locale-mr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7022d33a582cd20f32fb05f3caf8e7df
+Size: 171552
+Filename: iso-codes-locale-mr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ms
+Version: 3.74-r0
+Provides: iso-codes-locale, ms-translation
+Recommends: virtual-locale-ms
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9d7770d45dfa9d2e9eff094990b38c3
+Size: 7100
+Filename: iso-codes-locale-ms_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ms translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ms locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mt
+Version: 3.74-r0
+Provides: iso-codes-locale, mt-translation
+Recommends: virtual-locale-mt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7db44665613328ed66a2ccdb14f9a71c
+Size: 10868
+Filename: iso-codes-locale-mt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nb
+Version: 3.74-r0
+Provides: iso-codes-locale, nb-translation
+Recommends: virtual-locale-nb
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 65746be4eb80b36d898151c9fe1f3eea
+Size: 19700
+Filename: iso-codes-locale-nb_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nb translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nb locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ne
+Version: 3.74-r0
+Provides: iso-codes-locale, ne-translation
+Recommends: virtual-locale-ne
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4a4ae28d8a37c8d17c62775451609b4e
+Size: 12696
+Filename: iso-codes-locale-ne_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ne translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ne locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nl
+Version: 3.74-r0
+Provides: iso-codes-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a177a1602dfb1bcaf66cccd896178bd0
+Size: 144720
+Filename: iso-codes-locale-nl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nn
+Version: 3.74-r0
+Provides: iso-codes-locale, nn-translation
+Recommends: virtual-locale-nn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f90bf2bd76e35121382466da1eec9e8b
+Size: 21210
+Filename: iso-codes-locale-nn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nso
+Version: 3.74-r0
+Provides: iso-codes-locale, nso-translation
+Recommends: virtual-locale-nso
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d085d8438451538ca4dd7cadca788e1e
+Size: 6154
+Filename: iso-codes-locale-nso_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nso translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nso locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-oc
+Version: 3.74-r0
+Provides: iso-codes-locale, oc-translation
+Recommends: virtual-locale-oc
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf5c9b80f053fb24d03cfb9343a09392
+Size: 15012
+Filename: iso-codes-locale-oc_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - oc translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the oc locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-or
+Version: 3.74-r0
+Provides: iso-codes-locale, or-translation
+Recommends: virtual-locale-or
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91f6b698d3a027323ec919e3c7387389
+Size: 97788
+Filename: iso-codes-locale-or_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - or translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the or locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pa
+Version: 3.74-r0
+Provides: iso-codes-locale, pa-translation
+Recommends: virtual-locale-pa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2fbe88017b6bd3ec542d78caa826e40a
+Size: 166088
+Filename: iso-codes-locale-pa_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pa translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pa locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pl
+Version: 3.74-r0
+Provides: iso-codes-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6b3a6a6f4643d4dc05cf4eb4748c86ab
+Size: 172676
+Filename: iso-codes-locale-pl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ps
+Version: 3.74-r0
+Provides: iso-codes-locale, ps-translation
+Recommends: virtual-locale-ps
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2218cce9453b73744b74f5ce2c566c5a
+Size: 3500
+Filename: iso-codes-locale-ps_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ps translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ps locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pt-br
+Version: 3.74-r0
+Provides: iso-codes-locale, pt-br-translation
+Recommends: virtual-locale-pt-br
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7630f7573a60fb76dc17b1bc9703925c
+Size: 19470
+Filename: iso-codes-locale-pt-br_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pt_BR translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pt_BR locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pt
+Version: 3.74-r0
+Provides: iso-codes-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 64eeb28edbd4a047fabbc7530133f0c4
+Size: 22828
+Filename: iso-codes-locale-pt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ro
+Version: 3.74-r0
+Provides: iso-codes-locale, ro-translation
+Recommends: virtual-locale-ro
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a5b6d6679629954c6263826e39615084
+Size: 39378
+Filename: iso-codes-locale-ro_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ro translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ro locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ru
+Version: 3.74-r0
+Provides: iso-codes-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef4de016da1ad45f5d5f5d4dbeca54ad
+Size: 36458
+Filename: iso-codes-locale-ru_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ru translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ru locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-rw
+Version: 3.74-r0
+Provides: iso-codes-locale, rw-translation
+Recommends: virtual-locale-rw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a46ccbf4adf3629b00b3da1fa2bc288
+Size: 22122
+Filename: iso-codes-locale-rw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - rw translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the rw locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-si
+Version: 3.74-r0
+Provides: iso-codes-locale, si-translation
+Recommends: virtual-locale-si
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 136d37eb6f0371295f83fa29483300e1
+Size: 12754
+Filename: iso-codes-locale-si_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - si translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the si locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sk
+Version: 3.74-r0
+Provides: iso-codes-locale, sk-translation
+Recommends: virtual-locale-sk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d752e95cb2634d7774285a7ae0093eb
+Size: 33162
+Filename: iso-codes-locale-sk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sl
+Version: 3.74-r0
+Provides: iso-codes-locale, sl-translation
+Recommends: virtual-locale-sl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0dc7f05304e875db9d0e633b5a9f6d7b
+Size: 66188
+Filename: iso-codes-locale-sl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-so
+Version: 3.74-r0
+Provides: iso-codes-locale, so-translation
+Recommends: virtual-locale-so
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 41ceb333958d664c61edb5d974dbc8fd
+Size: 3362
+Filename: iso-codes-locale-so_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - so translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the so locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sq
+Version: 3.74-r0
+Provides: iso-codes-locale, sq-translation
+Recommends: virtual-locale-sq
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc9d267c503cee48219fce0cba07d6dd
+Size: 10572
+Filename: iso-codes-locale-sq_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sq translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sq locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sr+latin
+Version: 3.74-r0
+Provides: iso-codes-locale, sr+latin-translation
+Recommends: virtual-locale-sr+latin
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ac3da4641605096ebd7f74a0069f8586
+Size: 103928
+Filename: iso-codes-locale-sr+latin_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sr@latin translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sr@latin locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sr
+Version: 3.74-r0
+Provides: iso-codes-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7a1e2dae3c6d815b986d4315a21baf2e
+Size: 113008
+Filename: iso-codes-locale-sr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sv
+Version: 3.74-r0
+Provides: iso-codes-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 12837e950c793553227308e04df9f632
+Size: 124032
+Filename: iso-codes-locale-sv_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sv translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sv locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sw
+Version: 3.74-r0
+Provides: iso-codes-locale, sw-translation
+Recommends: virtual-locale-sw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d757decd521490f953a92cab6580bd76
+Size: 4132
+Filename: iso-codes-locale-sw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sw translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sw locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ta
+Version: 3.74-r0
+Provides: iso-codes-locale, ta-translation
+Recommends: virtual-locale-ta
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4f5d5a864798a89dc1a319a1de57473c
+Size: 169650
+Filename: iso-codes-locale-ta_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ta translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ta locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-te
+Version: 3.74-r0
+Provides: iso-codes-locale, te-translation
+Recommends: virtual-locale-te
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 323e7886205a284eb30006256791c2ff
+Size: 24584
+Filename: iso-codes-locale-te_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - te translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the te locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-th
+Version: 3.74-r0
+Provides: iso-codes-locale, th-translation
+Recommends: virtual-locale-th
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 681a9e24547ba4dbe751ec1e748b6414
+Size: 86472
+Filename: iso-codes-locale-th_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - th translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the th locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ti
+Version: 3.74-r0
+Provides: iso-codes-locale, ti-translation
+Recommends: virtual-locale-ti
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7426bf6158d346c03d29589522a3b3de
+Size: 7276
+Filename: iso-codes-locale-ti_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ti translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ti locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tig
+Version: 3.74-r0
+Provides: iso-codes-locale, tig-translation
+Recommends: virtual-locale-tig
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 37d5900fa6c1158c85297386c6c0b7f0
+Size: 7292
+Filename: iso-codes-locale-tig_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tig translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tig locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tk
+Version: 3.74-r0
+Provides: iso-codes-locale, tk-translation
+Recommends: virtual-locale-tk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 582a775d55d5d39062070c3cc31304dc
+Size: 7846
+Filename: iso-codes-locale-tk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tl
+Version: 3.74-r0
+Provides: iso-codes-locale, tl-translation
+Recommends: virtual-locale-tl
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 54befc41aa6fe9523dc24282775d5298
+Size: 8900
+Filename: iso-codes-locale-tl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tr
+Version: 3.74-r0
+Provides: iso-codes-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 91b0a53a528023944bb59136a21de2bb
+Size: 157208
+Filename: iso-codes-locale-tr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tt+iqtelif
+Version: 3.74-r0
+Provides: iso-codes-locale, tt+iqtelif-translation
+Recommends: virtual-locale-tt+iqtelif
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: da664d778970bf529d03131f17679dfd
+Size: 12458
+Filename: iso-codes-locale-tt+iqtelif_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tt@iqtelif translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tt@iqtelif
+ locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tt
+Version: 3.74-r0
+Provides: iso-codes-locale, tt-translation
+Recommends: virtual-locale-tt
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28af59b71b21f8c69b48fd0db77a3a38
+Size: 14062
+Filename: iso-codes-locale-tt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ug
+Version: 3.74-r0
+Provides: iso-codes-locale, ug-translation
+Recommends: virtual-locale-ug
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9b4dd58b163f81eb8d5314c1317c5974
+Size: 12256
+Filename: iso-codes-locale-ug_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ug translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ug locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-uk
+Version: 3.74-r0
+Provides: iso-codes-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5cfc3e7cecbc3caec9f1051af47ce100
+Size: 313792
+Filename: iso-codes-locale-uk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - uk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the uk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ve
+Version: 3.74-r0
+Provides: iso-codes-locale, ve-translation
+Recommends: virtual-locale-ve
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6fad2f0f6b4254339c5902f8306f0330
+Size: 5526
+Filename: iso-codes-locale-ve_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ve translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ve locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-vi
+Version: 3.74-r0
+Provides: iso-codes-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7701d427063d06d2e56a1c9f2d50ab0
+Size: 115220
+Filename: iso-codes-locale-vi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - vi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the vi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wa
+Version: 3.74-r0
+Provides: iso-codes-locale, wa-translation
+Recommends: virtual-locale-wa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7aa4e6b401a5a7a1579088ce5a94848f
+Size: 24320
+Filename: iso-codes-locale-wa_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - wa translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the wa locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wal
+Version: 3.74-r0
+Provides: iso-codes-locale, wal-translation
+Recommends: virtual-locale-wal
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 34ebb40b108278b8687ac2a4ee594399
+Size: 3966
+Filename: iso-codes-locale-wal_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - wal translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the wal locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wo
+Version: 3.74-r0
+Provides: iso-codes-locale, wo-translation
+Recommends: virtual-locale-wo
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25f650acbec5e2813c85db2ee9d8f8ef
+Size: 10370
+Filename: iso-codes-locale-wo_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - wo translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the wo locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-xh
+Version: 3.74-r0
+Provides: iso-codes-locale, xh-translation
+Recommends: virtual-locale-xh
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e4e5348f206d73ecae9904239b2537ae
+Size: 3778
+Filename: iso-codes-locale-xh_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - xh translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the xh locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-cn
+Version: 3.74-r0
+Provides: iso-codes-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 593229bf0e441f4875e0d8a645babf06
+Size: 92340
+Filename: iso-codes-locale-zh-cn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_CN translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zh_CN locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-hk
+Version: 3.74-r0
+Provides: iso-codes-locale, zh-hk-translation
+Recommends: virtual-locale-zh-hk
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80b10f3e07bab00e6d0894caf5e29c6e
+Size: 22062
+Filename: iso-codes-locale-zh-hk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_HK translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zh_HK locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-tw
+Version: 3.74-r0
+Provides: iso-codes-locale, zh-tw-translation
+Recommends: virtual-locale-zh-tw
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a38f47663b67e967c34d25ca030c6744
+Size: 40534
+Filename: iso-codes-locale-zh-tw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_TW translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zh_TW locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zu
+Version: 3.74-r0
+Provides: iso-codes-locale, zu-translation
+Recommends: virtual-locale-zu
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 192923e724143b819059d0e22f807944
+Size: 3974
+Filename: iso-codes-locale-zu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes
+Version: 3.74-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f8575e3c7564efd5e3eacfd03f05d453
+Size: 363106
+Filename: iso-codes_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations
+ ISO language, territory, currency, script codes and their translations.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: openresolv-dbg
+Version: 3.5.2-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ede19f9d94a291e8eddc1c8e6a59a25
+Size: 736
+Filename: openresolv-dbg_3.5.2-r0_all.ipk
+Source: openresolv_3.5.2.bb
+Description: management framework for resolv.conf - Debugging files
+ management framework for resolv.conf.  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: openresolv
+HomePage: http://roy.marples.name/projects/openresolv
+License: BSD-2-Clause
+Priority: optional
+
+Package: openresolv-dev
+Version: 3.5.2-r0
+Depends: openresolv (= 3.5.2-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ef5f41771e0fb9be11c89832ab5ffdb4
+Size: 764
+Filename: openresolv-dev_3.5.2-r0_all.ipk
+Source: openresolv_3.5.2.bb
+Description: management framework for resolv.conf - Development files
+ management framework for resolv.conf.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: openresolv
+HomePage: http://roy.marples.name/projects/openresolv
+License: BSD-2-Clause
+Priority: optional
+
+Package: openresolv-doc
+Version: 3.5.2-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 310df545cb1c353b28316f5eaf308362
+Size: 5188
+Filename: openresolv-doc_3.5.2-r0_all.ipk
+Source: openresolv_3.5.2.bb
+Description: management framework for resolv.conf - Documentation files
+ management framework for resolv.conf.  This package contains
+ documentation.
+OE: openresolv
+HomePage: http://roy.marples.name/projects/openresolv
+License: BSD-2-Clause
+Priority: optional
+
+Package: openresolv
+Version: 3.5.2-r0
+Provides: resolvconf
+Conflicts: resolvconf
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a053e6dc46bc596e08b0c6f94555e962
+Size: 9928
+Filename: openresolv_3.5.2-r0_all.ipk
+Source: openresolv_3.5.2.bb
+Description: management framework for resolv.conf
+ management framework for resolv.conf.
+OE: openresolv
+HomePage: http://roy.marples.name/projects/openresolv
+License: BSD-2-Clause
+Priority: optional
+
+Package: packagegroup-openplugins-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4b8f477cfa16a0fe4a2dd80d97b0fa08
+Size: 694
+Filename: packagegroup-openplugins-dbg_1.0-r0_all.ipk
+Source: packagegroup-openplugins.bb
+Description: packagegroup-openplugins version 1.0-r0 - Debugging files
+ E2OpenPlugins Task  This package contains ELF symbols and related sources
+ for debugging purposes.
+OE: packagegroup-openplugins
+License: GPLv2+
+Priority: optional
+
+Package: packagegroup-openplugins-dev
+Version: 1.0-r0
+Depends: packagegroup-openplugins (= 1.0-r0)
+Recommends: enigma2-plugin-extensions-addstreamurl-dev, enigma2-plugin-extensions-analogclock-dev, enigma2-plugin-extensions-antilogo-dev, enigma2-plugin-extensions-autobackup-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-bitrate-dev, enigma2-plugin-extensions-buienradar-dev, enigma2-plugin-extensions-cacheflush-dev, enigma2-plugin-extensions-changerootpassword-dev, enigma2-plugin-extensions-epgimportfilter-dev, enigma2-plugin-extensions-foreca-dev, enigma2-plugin-extensions-hetweer-dev, enigma2-plugin-extensions-meteoitalia2-dev, enigma2-plugin-extensions-meteoviewer-dev, enigma2-plugin-extensions-newsreader-dev, enigma2-plugin-extensions-nfsserver-dev, enigma2-plugin-extensions-oggisport-dev, enigma2-plugin-extensions-openwebif-dev, enigma2-plugin-extensions-oroscopoitalia-dev, enigma2-plugin-extensions-permanentvfdclock-dev, enigma2-plugin-extensions-ppanel-dev, enigma2-plugin-extensions-remotecontrolchannel-dev, enigma2-plugin-extensions-remotestreamconvert-dev, enigma2-plugin-extensions-screenposition-dev, enigma2-plugin-extensions-setpicon-dev, enigma2-plugin-extensions-shootyourscreen-dev, enigma2-plugin-extensions-simpleumount-dev, enigma2-plugin-extensions-snmpagent-dev, enigma2-plugin-extensions-streaminterface-dev, enigma2-plugin-extensions-systemtools-dev, enigma2-plugin-extensions-telekomsport-dev, enigma2-plugin-extensions-wakeonlan-dev, enigma2-plugin-extensions-xpower-dev, enigma2-plugin-systemplugins-autobouquetsmaker-dev, enigma2-plugin-systemplugins-autoshutdown-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a1848308f2dd95f1b3926d883f17a19c
+Size: 1038
+Filename: packagegroup-openplugins-dev_1.0-r0_all.ipk
+Source: packagegroup-openplugins.bb
+Description: packagegroup-openplugins version 1.0-r0 - Development files
+ E2OpenPlugins Task  This package contains symbolic links, header files,
+ and related items necessary for software development.
+OE: packagegroup-openplugins
+License: GPLv2+
+Priority: optional
+
+Package: packagegroup-openplugins
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 015aca5c01938e60d35c19c551dc71c1
+Size: 628
+Filename: packagegroup-openplugins_1.0-r0_all.ipk
+Source: packagegroup-openplugins.bb
+Description: packagegroup-openplugins version 1.0-r0
+ E2OpenPlugins Task
+OE: packagegroup-openplugins
+License: GPLv2+
+Priority: optional
+
+Package: picons-enigma2-meta-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b505d57b87b1a82c7844b3d29ea04efa
+Size: 692
+Filename: picons-enigma2-meta-dbg_1.0-r0_all.ipk
+Source: picons-enigma2-meta.bb
+Description: picons-enigma2-meta version 1.0-r0 - Debugging files
+ picons-enigma2-meta version 1.0-r0.  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: picons-enigma2-meta
+License: GPLv2+
+Priority: optional
+
+Package: picons-enigma2-meta-dev
+Version: 1.0-r0
+Depends: picons-enigma2-meta (= 1.0-r0)
+Recommends: enigma2-plugin-picons-delta.dark-on-white-220x132-dev, enigma2-plugin-picons-ziggo.black-button-220x132-dev, enigma2-plugin-picons-ziggo.black-white-220x132-dev, enigma2-plugin-picons-ziggo.metal-look-100x60-dev, enigma2-plugin-picons-ziggo.metal-look-220x132-dev, enigma2-plugin-picons-ziggo.metal-stamp-100x60-dev, enigma2-plugin-picons-ziggo.metal-stamp-220x132-dev, enigma2-plugin-picons-ziggo.reflection-black-220x132-dev, enigma2-plugin-picons-ziggo.transparent-black-220x132-dev, enigma2-plugin-picons-ziggo.transparent-white-220x132-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bfd6d87c9a644f1dfdc9d848d8c28690
+Size: 830
+Filename: picons-enigma2-meta-dev_1.0-r0_all.ipk
+Source: picons-enigma2-meta.bb
+Description: picons-enigma2-meta version 1.0-r0 - Development files
+ picons-enigma2-meta version 1.0-r0.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: picons-enigma2-meta
+License: GPLv2+
+Priority: optional
+
+Package: picons-enigma2-meta
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6353751a7a89d14b6ddd54f398f4c6d
+Size: 624
+Filename: picons-enigma2-meta_1.0-r0_all.ipk
+Source: picons-enigma2-meta.bb
+Description: picons-enigma2-meta version 1.0-r0
+ picons-enigma2-meta version 1.0-r0.
+OE: picons-enigma2-meta
+License: GPLv2+
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r9
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a66de3b8e7c6d47769c019c3d5c54d9
+Size: 714
+Filename: run-postinsts-dbg_1.0-r9_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Debugging files
+ Runs postinstall scripts on first boot of the target device.  This
+ package contains ELF symbols and related sources for debugging purposes.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r9
+Depends: run-postinsts (= 1.0-r9)
+Recommends: initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4dff65662a4f8b647fe4fbbf6a6f87e
+Size: 764
+Filename: run-postinsts-dev_1.0-r9_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Development files
+ Runs postinstall scripts on first boot of the target device.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r9
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: afd36b1b334c4018f8c989e61323d9f1
+Size: 1940
+Filename: run-postinsts_1.0-r9_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+ Runs postinstall scripts on first boot of the target device.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: settings-autorestore
+Version: 20171015-r0
+Section: base
+Architecture: all
+Maintainer: MiLo@OpenPLi
+MD5Sum: 29f673993abdd35b9904c984c2f08ca8
+Size: 2834
+Filename: settings-autorestore_20171015-r0_all.ipk
+Source: settings-autorestore.bb
+Description: settings-autorestore version 20171015-r0
+ Autorecover settings and install packages at first boot from
+ /media/*/backup
+OE: settings-autorestore
+License: GPLv2+
+Priority: optional
+
+Package: softcam-support
+Version: 2-r0
+Recommends: update-rc.d
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: ba69f69e70808d89351fd358223d1ae6
+Size: 1032
+Filename: softcam-support_2-r0_all.ipk
+Source: softcam-support.bb
+Description: Start, stop and select softcams.
+ Start, stop and select softcams..
+OE: softcam-support
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common-dbg
+Version: 2+git66+c35ca26-3
+Section: devel
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 3dbbf595030ee5a0fca993386f1df5b9
+Size: 680
+Filename: tuxbox-common-dbg_2+git66+c35ca26-3_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+gitAUTOINC+c35ca2679a-3 - Debugging files
+ Frequency lists  This package contains ELF symbols and related sources
+ for debugging purposes.
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common-dev
+Version: 2+git66+c35ca26-3
+Depends: tuxbox-common (= 2+git66+c35ca26-3)
+Section: devel
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 6a560668b7c12e31acb1444767302ba6
+Size: 716
+Filename: tuxbox-common-dev_2+git66+c35ca26-3_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+gitAUTOINC+c35ca2679a-3 - Development files
+ Frequency lists  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common
+Version: 2+git66+c35ca26-3
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 733c76f912f926ef5520bbdf74af4aba
+Size: 73198
+Filename: tuxbox-common_2+git66+c35ca26-3_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+gitAUTOINC+c35ca2679a-3
+ Frequency lists
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tzdata-africa
+Version: 2017b-r0
+Provides: tzdata-africa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 951aa31a5776795fb8af389dd04ef85d
+Size: 7788
+Filename: tzdata-africa_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-americas
+Version: 2017b-r0
+Provides: tzdata-americas
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c95bd40f898be29de3ad08e339389b9
+Size: 60406
+Filename: tzdata-americas_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-antarctica
+Version: 2017b-r0
+Provides: tzdata-antarctica
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 432bf90dc17b64705233145bb78b0340
+Size: 4660
+Filename: tzdata-antarctica_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-arctic
+Version: 2017b-r0
+Provides: tzdata-arctic
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d9225d64ada1f81490d0be32ce865202
+Size: 1874
+Filename: tzdata-arctic_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-asia
+Version: 2017b-r0
+Provides: tzdata-asia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d8f07d9b60b410656b50aa46054d955
+Size: 20940
+Filename: tzdata-asia_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-atlantic
+Version: 2017b-r0
+Provides: tzdata-atlantic
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7bc11433ce0c576d1532e7effd10d6e
+Size: 5410
+Filename: tzdata-atlantic_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-australia
+Version: 2017b-r0
+Provides: tzdata-australia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f8c7ec71c501b3b04a85337d20449302
+Size: 5674
+Filename: tzdata-australia_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-base
+Version: 2017b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 32896a2a55905712b1669e9cf3eed64d
+Size: 23152
+Filename: tzdata-base_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-europe
+Version: 2017b-r0
+Provides: tzdata-europe
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aee284cada570bf9fd386fd8a1c04e09
+Size: 21736
+Filename: tzdata-europe_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-misc
+Version: 2017b-r0
+Provides: tzdata-misc
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 17036710ee98d7fe48f866fdb3549557
+Size: 12950
+Filename: tzdata-misc_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-pacific
+Version: 2017b-r0
+Provides: tzdata-pacific
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 93d142e3d80a7cb4c596a76694a1ef5a
+Size: 5940
+Filename: tzdata-pacific_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-posix
+Version: 2017b-r0
+Provides: tzdata-posix
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2df1071d0cb47f90e3bc251c39b55f6
+Size: 175912
+Filename: tzdata-posix_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-right
+Version: 2017b-r0
+Provides: tzdata-right
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3b9f755c2b83fae65390e88cc71df64d
+Size: 188982
+Filename: tzdata-right_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata
+Version: 2017b-r0
+Conflicts: timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab, timezones
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0a263c73e37de57e563ee45d5c879b05
+Size: 39270
+Filename: tzdata_2017b-r0_all.ipk
+Source: tzdata_2017b.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.7-r5
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 49f82c320b3228a07025ab10566a5041
+Size: 752
+Filename: update-rc.d-dbg_0.7-r5_all.ipk
+Source: update-rc.d_0.7.bb
+Description: manage symlinks in /etc/rcN.d - Debugging files
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.7-r5
+Depends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 87f89082d6951f80a4ac998d1891c2e8
+Size: 776
+Filename: update-rc.d-dev_0.7-r5_all.ipk
+Source: update-rc.d_0.7.bb
+Description: manage symlinks in /etc/rcN.d - Development files
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.7-r5
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 022d239d920393b80faeffb05d01320c
+Size: 2766
+Filename: update-rc.d_0.7-r5_all.ipk
+Source: update-rc.d_0.7.bb
+Description: manage symlinks in /etc/rcN.d
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: usb-modeswitch-data-dbg
+Version: 20170205-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: df090040a153ec9bd53c4a18c721200f
+Size: 698
+Filename: usb-modeswitch-data-dbg_20170205-r0_all.ipk
+Source: usb-modeswitch-data_20170205.bb
+Description: Data files for usbmodeswitch - Debugging files
+ Data files for usbmodeswitch.  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: usb-modeswitch-data
+License: GPLv2
+Priority: optional
+
+Package: usb-modeswitch-data-dev
+Version: 20170205-r0
+Depends: usb-modeswitch-data (= 20170205-r0)
+Recommends: usb-modeswitch-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 00c9b62c60ff5316ce7b56cfe72b17e2
+Size: 736
+Filename: usb-modeswitch-data-dev_20170205-r0_all.ipk
+Source: usb-modeswitch-data_20170205.bb
+Description: Data files for usbmodeswitch - Development files
+ Data files for usbmodeswitch.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: usb-modeswitch-data
+License: GPLv2
+Priority: optional
+
+Package: usb-modeswitch-data
+Version: 20170205-r0
+Depends: usb-modeswitch (>= 2.4.0)
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: de5619b16a86b2a7d76197ee06fb3cbf
+Size: 25266
+Filename: usb-modeswitch-data_20170205-r0_all.ipk
+Source: usb-modeswitch-data_20170205.bb
+Description: Data files for usbmodeswitch
+ Data files for usbmodeswitch.
+OE: usb-modeswitch-data
+License: GPLv2
+Priority: optional
+
+Package: volatile-media
+Version: 2-r0
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 17e6ca4817837b92fea9c76cd4bcae4a
+Size: 926
+Filename: volatile-media_2-r0_all.ipk
+Source: volatile-media.bb
+Description: volatile-media version 2-r0
+ Mounts and populates a tmpfs over /media
+OE: volatile-media
+License: GPLv2+
+Priority: optional
+
